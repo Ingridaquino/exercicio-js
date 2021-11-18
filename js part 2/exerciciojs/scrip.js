@@ -18,3 +18,43 @@ const celsius =(cel = 23) =>{
 }
 
 console.log(celsius());
+
+/// ============
+
+
+
+//Alerta do botão
+console.clear();
+function alertCookie()
+{
+    alert('Você quer um cookie')
+    console.log('Você quer um cookie')
+};
+
+//Alerta sucesso
+console.clear();
+const alertSucesso = () => 
+{
+    alert('Mensagem gerada com sucesso');
+    console.log('Mensagem gerada com sucesso');
+};
+
+//Adicionando objeto Notebook
+console.clear();
+const notebook =
+{
+    Tipo: "Dell",
+    Modelo: "Inspiron 15 3000",
+    Ano:"2021",
+    Cor:"Prata",
+    Memoria:"8GB"
+};
+console.log(notebook);
+
+//Calculo da conversão de anos para dias
+console.clear();
+function convertDias(an= 10, di = 365 )
+{
+    return an * di;
+};
+console.log (convertDias())
